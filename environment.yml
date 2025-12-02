@@ -1,0 +1,19 @@
+name: stock_predictor_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - jupyter
+  - pip
+  - pip:
+      - yfinance
+      - openai
+      - streamlit
+      - requests
+      - joblib
+      - ta

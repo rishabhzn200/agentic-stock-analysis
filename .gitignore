@@ -1,0 +1,11 @@
+# macOS system files
+.DS_Store
+
+# Ignore all .DS_Store files recursively
+**/.DS_Store
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
