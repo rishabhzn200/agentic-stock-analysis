@@ -27,6 +27,7 @@ flowchart LR
   predict --> alignment[alignment_node<br/>signal comparison]
   alignment --> summarize[summarize_node<br/>LLM report generation]
   summarize --> END
+```
 
 ## Key Features:
 - Real market data ingestion using yfinance (historical OHLCV data).
