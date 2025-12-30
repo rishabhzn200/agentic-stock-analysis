@@ -21,7 +21,7 @@ flowchart LR
 
   START --> metadata[metadata_node<br/>yfinance metadata]
   metadata --> plan_news_query[plan_news_query_node<br/>LLM query planning]
-  plan_news_query --> news[news_node<br/>NewsAPI (trusted domains)]
+  plan_news_query --> news[news_node<br/>NewsAPI trusted domains]
   news --> news_sentiment[news_sentiment_node<br/>LLM sentiment analysis]
   news_sentiment --> predict[predict_node<br/>ML model prediction]
   predict --> alignment[alignment_node<br/>signal comparison]
